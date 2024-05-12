@@ -504,7 +504,11 @@ fieldset {
 }
 .button {
     width: 100%;
-    background-color: #f56349 ;
+    background: linear-gradient(
+        90deg,
+        rgba(245,99,72,1) 0%,
+        rgba(254,140,32,1) 100%
+    );
     border-radius: 5px;
     border: none;
     padding: 10px;
