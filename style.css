@@ -546,12 +546,10 @@ fieldset {
 .link a:hover {
     color: #f56349;
 }
-.link-redes {
+.link .link-redes {
     display: flex;
     justify-content: space-between;
-    width: 350px;
-    height: 30px;
-    padding: 0 70px;
+    width: 200px;
 }
 .footer-copy {
     text-align: center;
@@ -651,7 +649,11 @@ fieldset {
     }
     .footer-content {
         flex-direction: column;
-        text-align: center;        
+        text-align: center; 
+        max-width: 200px;       
+    }
+    .link .link-redes {
+        line-height: 20px;        
     }
 
 
@@ -668,5 +670,8 @@ fieldset {
     }
     .devoto iframe {
         width: 100%;
+    }
+    .footer {
+        padding: 20px;
     }
 }
