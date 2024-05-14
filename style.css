@@ -528,12 +528,13 @@ fieldset {
 }
 .footer-content {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .link h3 {
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 10px ;
+    text-align: center;
     text-transform: uppercase;
 }
 .link  a {
