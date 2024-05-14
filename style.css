@@ -522,22 +522,22 @@ fieldset {
 
 /*-------- FOOTER---------*/
 .footer {
-    padding: 40px 0 10px;
+    padding: 50px 0 10px;
     background-color: #000;
-    height: 200px;
+    height: 220px;
 }
 .footer-content {
     display: flex;
     justify-content: space-between
 }
 .link h3 {
-    font-size: 17px;
+    font-size: 20px;
     color: #ffffff;
     margin-bottom: 10px ;
     text-transform: uppercase;
 }
 .link  a {
-    font-size: 17px;
+    font-size: 18px;
     color: #d4d4d4;
     display: block;
     margin-bottom: 10px;
@@ -548,8 +548,9 @@ fieldset {
 .link-redes {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    
+    width: 350px;
+    height: 30px;
+    padding: 0 70px;
 }
 .footer-copy {
     text-align: center;
@@ -592,7 +593,7 @@ fieldset {
         padding: 0;
     }
     .about {
-        height: 900px;
+        height: auto;
     }
     .about-txt{
         margin: 0px;
@@ -651,12 +652,8 @@ fieldset {
         flex-direction: column;
         text-align: center;        
     }
-    .footer .link-redes {
-        justify-content:  center;
-    }
-    .footer .links {
-        padding: 20px;
-    }
+
+
 }
 @media screen and (min-width: 750px) and (max-width: 1400px) {
     .about {
